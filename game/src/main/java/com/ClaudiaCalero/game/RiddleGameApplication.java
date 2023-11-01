@@ -1,41 +1,47 @@
 package com.ClaudiaCalero.game;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 @SpringBootApplication
 public class RiddleGameApplication {
 
 	public static void main(String[] args) {
-		List<Question> questions = loadQuestionsFromURL("https://raw.githubusercontent.com/ClaudiaCalero/RiddleGame/master/RIDDLES.txt");
+		// Cargamos las preguntas desde un archivo en GitHub
+		List<Question> questions = loadQuestionsFromGitHub("https://raw.githubusercontent.com/ClaudiaCalero/RiddleGame/master/RIDDLES.txt");
 
+		// Verificamos si se cargaron preguntas
 		if (questions.isEmpty()) {
 			System.out.println("There's no riddles available. The game cannot start.");
 			return;
 		}
 
+		// Creamos una instancia del juego y lo iniciamos
 		Game game = new Game(questions);
 		game.start();
 	}
 
-	public static List<Question> loadQuestionsFromURL(String url) {
+	// Función para cargar preguntas desde un archivo en GitHub
+	public static List<Question> loadQuestionsFromGitHub(String githubFileURL) {
+		// Lista que contendrá las preguntas cargadas
 		List<Question> questions = new ArrayList<>();
 
 		try {
-			URL questionsURL = new URL(url);
+			// Crear una URL para acceder al archivo en GitHub
+			URL questionsURL = new URL(githubFileURL);
+			// Abrir una secuencia de entrada desde la URL
 			InputStream inputStream = questionsURL.openStream();
+			// Crear un lector para leer el contenido del archivo
 			BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
 
+			// Variables para mantener el estado de la pregunta actual
 			String line;
 			String questionType = null;
 			String questionText = null;
@@ -44,8 +50,10 @@ public class RiddleGameApplication {
 			List<String> options = new ArrayList<>();
 
 			do {
+				// Leer una línea del archivo
 				line = reader.readLine();
 
+				// Verificar si la línea no está vacía
 				if (line != null && !line.trim().isEmpty()) {
 					if (line.equals("RIDDLE") || line.equals("MULTIPLE_CHOICE")) {
 						questionType = line;
@@ -59,10 +67,13 @@ public class RiddleGameApplication {
 						options.add(line);
 					}
 
+					// Cuando se han recopilado todos los componentes de una pregunta
 					if (questionType != null && questionText != null && correctAnswer != null) {
 						if (questionType.equals("RIDDLE")) {
+							// Agregamos una pregunta de acertijo a la lista
 							questions.add(new Riddle(questionText, correctAnswer, hint));
 						} else if (questionType.equals("MULTIPLE_CHOICE")) {
+							// Agregamos una pregunta de opción múltiple a la lista
 							questions.add(new MultipleChoiceQuestion(questionText, correctAnswer, hint, options));
 						}
 
@@ -74,11 +85,11 @@ public class RiddleGameApplication {
 						options.clear();
 					}
 				}
-			} while (line != null);
+			} while (line != null); // Continuar hasta que no haya más líneas en el archivo
 		} catch (IOException e) {
-			e.printStackTrace();
+			e.printStackTrace();// Manejar errores de lectura o conexión
 		}
 
-		return questions;
+		return questions;// Devolver la lista de preguntas cargadas
 	}
 }

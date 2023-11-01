@@ -1,9 +1,9 @@
 package com.ClaudiaCalero.game;
 
 public abstract class Question {
-    private String questionText; // La pregunta en sí
-    private String correctAnswer; // La respuesta correcta
-    public String hint; // La pista que puede ayudar al jugador
+    private String questionText; // Almacena el texto de la pregunta
+    private String correctAnswer; // Almacena la respuesta correcta
+    public String hint; // Almacena la pista que puede ayudar al jugador
 
     // Constructor
     public Question(String questionText, String correctAnswer, String hint) {
