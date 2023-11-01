@@ -40,8 +40,6 @@ public class Game {
 
         for (Question question : questions) {
             System.out.println("------------------------------");
-            System.out.println("New riddle:");
-
             question.displayQuestion();
 
             System.out.print("Your answer: ");
