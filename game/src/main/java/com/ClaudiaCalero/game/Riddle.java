@@ -12,14 +12,13 @@ public class Riddle extends Question {
         // Imprime "Riddle:" para indicar que es una pregunta de acertijo
         System.out.println("Riddle:");
         // Imprime el texto de la pregunta
-        System.out.println("Question: " + getQuestionText());
+        System.out.println(getQuestionText());
 
         // Verifica si hay una pista y la imprime
         String hint = getHint();
         if (hint != null) {
             System.out.println("Hint: " + hint);
         }
-        System.out.print("Your answer: ");
     }
 
     // Método para verificar si la respuesta del usuario es correcta
@@ -31,7 +30,7 @@ public class Riddle extends Question {
 
     // Método para obtener el texto de la pregunta, incluyendo "Question:" al principio
     public String getQuestionText() {
-        return super.getQuestionText();
+        return ("Question: " + super.getQuestionText());
     }
 }
 
