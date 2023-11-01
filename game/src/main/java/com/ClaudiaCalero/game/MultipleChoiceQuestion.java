@@ -3,11 +3,7 @@ package com.ClaudiaCalero.game;
 import java.util.List;
 
 public class MultipleChoiceQuestion extends Question {
-    private List<String>options;
-
-    public MultipleChoiceQuestion(String questionText, String correctAnswer, String hint) {
-        super(questionText, correctAnswer, hint);
-    }
+    private List<String> options;
 
     public MultipleChoiceQuestion(String questionText, String correctAnswer, String hint, List<String> options) {
         super(questionText, correctAnswer, hint);

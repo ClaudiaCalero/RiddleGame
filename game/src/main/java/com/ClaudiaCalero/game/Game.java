@@ -7,7 +7,7 @@ public class Game {
     private List<Question> questions;
     private Scanner scanner;
 
-    public Game(List<Question> questions, Scanner scanner) {
+    public Game(List<Question> questions) {
         this.questions = questions;
         this.scanner = new Scanner(System.in);
     }
