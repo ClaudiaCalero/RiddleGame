@@ -28,7 +28,6 @@ public class RiddleGameApplication {
 		game.start();
 	}
 
-
 	// Función para cargar preguntas desde un archivo en GitHub
 	public static List<Question> loadQuestionsFromGitHub(String githubFileURL) {
 		// Lista que contendrá las preguntas cargadas
@@ -61,14 +60,16 @@ public class RiddleGameApplication {
 					} else if (questionText == null) {
 						questionText = line;
 					} else if (correctAnswer == null) {
-						// La respuesta correcta es la propia línea (sin necesidad de "Answer:")
-						correctAnswer = line.trim();
+						correctAnswer = line;
 					} else if (questionType != null && questionType.equals("RIDDLE")) {
 						hint = line;
 					} else if (questionType != null && questionType.equals("MULTIPLE_CHOICE")) {
 						if (line.startsWith("A)") || line.startsWith("B)") || line.startsWith("C)") || line.startsWith("D)")) {
 							// Es una opción de respuesta
 							options.add(line);
+						} else if (line.startsWith("Answer:")) {
+							// En lugar de sobrescribir correctAnswer, deberías asignar la respuesta correcta aquí
+							correctAnswer = line.substring("Answer:".length()).trim();
 						}
 					}
 
