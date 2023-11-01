@@ -24,7 +24,7 @@ public class MultipleChoiceQuestion extends Question {
     @Override
     public void displayQuestion() {
         System.out.println("Multiple choice question:");
-        System.out.println(getQuestionText());
+        System.out.println("Question: " + getQuestionText());
 
         char optionLetter = 'A';
         for (String option : options) {
@@ -48,6 +48,6 @@ public class MultipleChoiceQuestion extends Question {
 
     // Método para obtener el texto de la pregunta
     public String getQuestionText() {
-        return "Question: " + super.getQuestionText();
+        return super.getQuestionText();
     }
 }
