@@ -1,0 +1,276 @@
+
+
+MULTIPLE_CHOICE
+What has keys but can't open locks?
+A) Piano
+B) Bicycle
+C) Phone
+D) Door
+Answer: A) Piano
+Hint: It's a musical instrument.
+
+MULTIPLE_CHOICE
+I'm not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?
+A) Rock
+B) Tree
+C) Fire
+D) Ice
+Answer: C) Fire
+Hint: It produces heat and light.
+
+MULTIPLE_CHOICE
+What comes once in a minute, twice in a moment, but never in a thousand years?
+A) Letter "M"
+B) Number 1
+C) Letter "E"
+D) Letter "O"
+Answer: A) Letter "M"
+Hint: It's a letter of the alphabet.
+
+MULTIPLE_CHOICE
+I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?
+A) Echo
+B) Whisper
+C) Music
+D) Dream
+Answer: A) Echo
+Hint: You hear it in the mountains.
+
+RIDDLE
+I'm tall when I'm young and short when I'm old. What am I?
+Answer: A candle
+Hint: I provide light.
+
+MULTIPLE_CHOICE
+I'm tall when I'm young, and short when I'm old. What am I?
+A) Tree
+B) Person
+C) Candle
+D) Giraffe
+Answer: C) Candle
+Hint: You light it.
+
+RIDDLE
+I'm something with keys but no locks. I connect to the world but don't have a screen. What am I?
+Answer: Piano
+Hint: You play music on me.
+
+MULTIPLE_CHOICE
+The more you take, the more you leave behind. What am I?
+A) Footsteps
+B) Money
+C) Memories
+D) Dust
+Answer: A) Footsteps
+Hint: You make them when you walk.
+
+MULTIPLE_CHOICE
+What has keys but can't open locks and can sing but not talk?
+A) Bird
+B) Piano
+C) Computer
+D) Radio
+Answer: B) Piano
+Hint: It's a musical instrument.
+
+RIDDLE
+I'm not alive, but I can grow. I don't have lungs, but I need air. What am I?
+Answer: Fire
+Hint: I burn and provide light.
+
+RIDDLE
+I'm a king, but I'm not royal; I'm a queen, but I'm not royal; I'm a pawn, but I'm not a chess piece. What am I?
+Answer: Bee
+Hint: I live in a hive.
+
+MULTIPLE_CHOICE
+I'm not alive, but I can die. I'm not liquid, but I can melt. What am I?
+A) Ice
+B) Rock
+C) Metal
+D) Sun
+Answer: A) Ice
+Hint: You find it in your freezer.
+
+MULTIPLE_CHOICE
+I am taken from a mine, and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?
+A) Gold
+B) Diamond
+C) Lead
+D) Pencil
+Answer: D) Pencil
+Hint: I help you write.
+
+RIDDLE
+I'm a word of letters three, add two and fewer there will be. What am I?
+Answer: Few
+Hint: Think about the word's spelling.
+
+RIDDLE
+I'm full of holes, yet I can still hold water. What am I?
+Answer: A sponge
+Hint: I'm often used for cleaning.
+
+RIDDLE
+The more you take, the more you leave behind. What am I?
+Answer: Footsteps
+Hint: You make me when you walk.
+
+MULTIPLE_CHOICE
+I can fly without wings, cry without eyes. Wherever I go, darkness follows me. What am I?
+A) Cloud
+B) Moon
+C) Wind
+D) Bat
+Answer: B) Moon
+Hint: I light up the night sky.
+
+RIDDLE
+I have a heart that never beats, I have a home but I never sleep. I can take a man's house and build another's, and I love to play games with my many brothers. What am I?
+Answer: Ace
+Hint: I'm part of a deck of cards.
+
+RIDDLE
+I am taken from a mine, and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?
+Answer: Pencil lead
+Hint: I can be used to write or draw.
+
+RIDDLE
+I'm not alive, but I can die. I don't have lungs, but I need air to survive. What am I?
+Answer: Battery
+Hint: I power electronic devices.
+
+MULTIPLE_CHOICE
+I have keys but open no locks. I have space but no room. You can enter, but you can't go inside. What am I?
+A) A computer keyboard
+B) A book
+C) A telephone
+D) A car
+Answer: B) A book
+Hint: I'm filled with stories.
+
+MULTIPLE_CHOICE
+I'm black and white and loved all over the world. What am I?
+A) Zebra
+B) Panda
+C) Piano
+D) Soccer ball
+Answer: C) Piano
+Hint: I make beautiful music.
+
+RIDDLE
+What comes once in a minute, twice in a moment, but never in a thousand years?
+Answer: The letter "M"
+Hint: It's a letter of the alphabet.
+
+RIDDLE
+I'm black and white and loved all over the world. What am I?
+Answer: Panda
+Hint: I'm a bear.
+
+MULTIPLE_CHOICE
+I can be cracked, made, told, and played. What am I?
+A) Joke
+B) Egg
+C) Music
+D) Puzzle
+Answer: A) Joke
+Hint: I make you laugh.
+
+RIDDLE
+I'm tall when I'm young, and short when I'm old. What am I?
+Answer: Candle
+Hint: You light it.
+
+RIDDLE
+I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?
+Answer: Echo
+Hint: You hear it in the mountains.
+
+MULTIPLE_CHOICE
+I have keys but open no locks. I have space but no room. You can enter, but you can't go inside. What am I?
+A) A computer keyboard
+B) A book
+C) A telephone
+D) A car
+Answer: B) A book
+Hint: I'm filled with stories.
+
+MULTIPLE_CHOICE
+I'm black and white and loved all over the world. What am I?
+A) Zebra
+B) Panda
+C) Piano
+D) Soccer ball
+Answer: C) Piano
+Hint: I make beautiful music.
+
+RIDDLE
+What has keys but can't open locks?
+Answer: Piano
+Hint: It's a musical instrument.
+
+MULTIPLE_CHOICE
+I can be cracked, made, told, and played. What am I?
+A) Joke
+B) Egg
+C) Music
+D) Puzzle
+Answer: A) Joke
+Hint: I make you laugh.
+
+MULTIPLE_CHOICE
+I have a heart that never beats, I have a home but I never sleep. I can take a man's house and build another's, and I love to play games with my many brothers. What am I?
+A) King
+B) Queen
+C) Joker
+D) Ace
+Answer: D) Ace
+Hint: I'm part of a deck of cards.
+
+RIDDLE
+I can fly without wings, cry without eyes. Wherever I go, darkness follows me. What am I?
+Answer: Cloud
+Hint: I bring rain.
+
+MULTIPLE_CHOICE
+I'm tall when I'm young and short when I'm old. What am I?
+A) Tree
+B) Person
+C) Candle
+D) Giraffe
+Answer: C) Candle
+Hint: You light it.
+
+RIDDLE
+The more you take, the more you leave behind. What am I?
+Answer: Footsteps
+Hint: You make them when you walk.
+
+MULTIPLE_CHOICE
+I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?
+A) Echo
+B) Whisper
+C) Music
+D) Dream
+Answer: A) Echo
+Hint: You hear it in the mountains.
+
+RIDDLE
+I have keys but open no locks. I have space but no room. You can enter, but you can't go inside. What am I?
+Answer: A computer keyboard
+Hint: You type on it.
+
+RIDDLE
+I'm not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?
+Answer: Fire
+Hint: It produces heat and light. 
+
+MULTIPLE_CHOICE
+The more you take, the more you leave behind. What am I?
+A) Footsteps
+B) Money
+C) Memories
+D) Dust
+Answer: A) Footsteps
+Hint: You make them when you walk.
