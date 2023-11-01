@@ -63,8 +63,14 @@ public class RiddleGameApplication {
 						correctAnswer = line;
 					} else if (questionType != null && questionType.equals("RIDDLE")) {
 						hint = line;
-					} else if (questionType != null && questionType.equals("MULTIPLE_CHOICE") && !line.isEmpty()) {
-						options.add(line);
+					} else if (questionType != null && questionType.equals("MULTIPLE_CHOICE")) {
+						if (line.startsWith("A)") || line.startsWith("B)") || line.startsWith("C)") || line.startsWith("D)")) {
+							// Es una opción de respuesta
+							options.add(line);
+						} else if (line.startsWith("Answer:")) {
+							// En lugar de sobrescribir correctAnswer, deberías asignar la respuesta correcta aquí
+							correctAnswer = line.substring("Answer:".length()).trim();
+						}
 					}
 
 					// Cuando se han recopilado todos los componentes de una pregunta
@@ -87,9 +93,9 @@ public class RiddleGameApplication {
 				}
 			} while (line != null); // Continuar hasta que no haya más líneas en el archivo
 		} catch (IOException e) {
-			e.printStackTrace();// Manejar errores de lectura o conexión
+			e.printStackTrace(); // Manejar errores de lectura o conexión
 		}
 
-		return questions;// Devolver la lista de preguntas cargadas
+		return questions; // Devolver la lista de preguntas cargadas
 	}
 }
