@@ -5,11 +5,12 @@ Hint: I'm ahead of you.
 
 MULTIPLE_CHOICE
 What has keys but can't open locks?
-A) Piano
+Options: A) Piano
 B) Bicycle
 C) Phone
 D) Door
-Answer: A) Piano
+
+A) Piano
 Hint: It's a musical instrument.
 
 MULTIPLE_CHOICE
@@ -18,7 +19,8 @@ A) Rock
 B) Tree
 C) Fire
 D) Ice
-Answer: C) Fire
+
+C) Fire
 Hint: It produces heat and light.
 
 MULTIPLE_CHOICE
@@ -27,7 +29,8 @@ A) Letter "M"
 B) Number 1
 C) Letter "E"
 D) Letter "O"
-Answer: A) Letter "M"
+
+A) Letter "M"
 Hint: It's a letter of the alphabet.
 
 MULTIPLE_CHOICE
