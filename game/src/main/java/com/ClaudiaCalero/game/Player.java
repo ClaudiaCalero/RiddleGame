@@ -1,20 +1,23 @@
 package com.ClaudiaCalero.game;
 
 public class Player {
-    private String name;
+    private String playerName;
     private int score;
 
-    public Player(String name, int score) {
-        this.name = name;
+    public Player(String playerName, int score) {
+        this.playerName = playerName;
         this.score = score;
     }
 
-    public String getName() {
-        return name;
+    public Player(String playerName) {
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getPlayerName() {
+        return playerName;
+    }
+
+    public void setPlayerName(String playerName) {
+        this.playerName = playerName;
     }
 
     public int getScore() {
