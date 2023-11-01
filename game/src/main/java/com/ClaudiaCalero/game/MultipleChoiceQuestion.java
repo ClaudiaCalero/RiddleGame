@@ -9,6 +9,18 @@ public class MultipleChoiceQuestion extends Question {
         super(questionText, correctAnswer, hint);
     }
 
+    public MultipleChoiceQuestion(String questionText, String correctAnswer, String hint, List<String> options) {
+        super(questionText, correctAnswer, hint);
+        this.options = options;
+    }
+
+    public List<String> getOptions() {
+        return options;
+    }
+
+    public void setOptions(List<String> options) {
+        this.options = options;
+    }
 
     @Override
     public void displayQuestion() {
@@ -35,7 +47,7 @@ public class MultipleChoiceQuestion extends Question {
     }
 
     public String getQuestionText() {
-        return "QUestion: " + super.getQuestionText();
+        return "Question: " + super.getQuestionText();
     }
 }
 
