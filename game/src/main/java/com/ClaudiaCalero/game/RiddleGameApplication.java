@@ -28,6 +28,7 @@ public class RiddleGameApplication {
 		game.start();
 	}
 
+
 	// Función para cargar preguntas desde un archivo en GitHub
 	public static List<Question> loadQuestionsFromGitHub(String githubFileURL) {
 		// Lista que contendrá las preguntas cargadas
