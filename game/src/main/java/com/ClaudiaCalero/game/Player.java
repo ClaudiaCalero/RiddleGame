@@ -10,6 +10,8 @@ public class Player {
     }
 
     public Player(String playerName) {
+        this.playerName = playerName;
+        this.score = 0;
     }
 
     public String getPlayerName() {
