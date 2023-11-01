@@ -5,10 +5,10 @@ Hint: I'm ahead of you.
 
 MULTIPLE_CHOICE
 What has keys but can't open locks?
-Options: A) Piano
-B) Bicycle
-C) Phone
-D) Door
+1. A) Piano
+2. B) Bicycle
+3. C) Phone
+4. D) Door
 
 A) Piano
 Hint: It's a musical instrument.
@@ -39,7 +39,8 @@ A) Echo
 B) Whisper
 C) Music
 D) Dream
-Answer: A) Echo
+
+A) Echo
 Hint: You hear it in the mountains.
 
 RIDDLE
@@ -53,7 +54,8 @@ A) Tree
 B) Person
 C) Candle
 D) Giraffe
-Answer: C) Candle
+
+C) Candle
 Hint: You light it.
 
 RIDDLE
@@ -67,7 +69,8 @@ A) Footsteps
 B) Money
 C) Memories
 D) Dust
-Answer: A) Footsteps
+
+A) Footsteps
 Hint: You make them when you walk.
 
 MULTIPLE_CHOICE
@@ -76,7 +79,8 @@ A) Bird
 B) Piano
 C) Computer
 D) Radio
-Answer: B) Piano
+
+B) Piano
 Hint: It's a musical instrument.
 
 RIDDLE
@@ -95,7 +99,8 @@ A) Ice
 B) Rock
 C) Metal
 D) Sun
-Answer: A) Ice
+
+A) Ice
 Hint: You find it in your freezer.
 
 MULTIPLE_CHOICE
@@ -104,7 +109,8 @@ A) Gold
 B) Diamond
 C) Lead
 D) Pencil
-Answer: D) Pencil
+
+D) Pencil
 Hint: I help you write.
 
 RIDDLE
@@ -119,7 +125,7 @@ Hint: I'm often used for cleaning.
 
 RIDDLE
 The more you take, the more you leave behind. What am I?
-Answer: Footsteps
+Footsteps
 Hint: You make me when you walk.
 
 MULTIPLE_CHOICE
@@ -128,7 +134,8 @@ A) Cloud
 B) Moon
 C) Wind
 D) Bat
-Answer: B) Moon
+
+B) Moon
 Hint: I light up the night sky.
 
 RIDDLE
@@ -152,7 +159,8 @@ A) A computer keyboard
 B) A book
 C) A telephone
 D) A car
-Answer: B) A book
+
+B) A book
 Hint: I'm filled with stories.
 
 MULTIPLE_CHOICE
@@ -161,7 +169,8 @@ A) Zebra
 B) Panda
 C) Piano
 D) Soccer ball
-Answer: C) Piano
+
+C) Piano
 Hint: I make beautiful music.
 
 RIDDLE
@@ -180,7 +189,8 @@ A) Joke
 B) Egg
 C) Music
 D) Puzzle
-Answer: A) Joke
+
+A) Joke
 Hint: I make you laugh.
 
 RIDDLE
@@ -199,7 +209,8 @@ A) A computer keyboard
 B) A book
 C) A telephone
 D) A car
-Answer: B) A book
+
+B) A book
 Hint: I'm filled with stories.
 
 MULTIPLE_CHOICE
@@ -208,7 +219,8 @@ A) Zebra
 B) Panda
 C) Piano
 D) Soccer ball
-Answer: C) Piano
+
+C) Piano
 Hint: I make beautiful music.
 
 RIDDLE
@@ -222,7 +234,8 @@ A) Joke
 B) Egg
 C) Music
 D) Puzzle
-Answer: A) Joke
+
+A) Joke
 Hint: I make you laugh.
 
 MULTIPLE_CHOICE
@@ -231,7 +244,8 @@ A) King
 B) Queen
 C) Joker
 D) Ace
-Answer: D) Ace
+
+D) Ace
 Hint: I'm part of a deck of cards.
 
 RIDDLE
@@ -245,7 +259,8 @@ A) Tree
 B) Person
 C) Candle
 D) Giraffe
-Answer: C) Candle
+
+C) Candle
 Hint: You light it.
 
 RIDDLE
@@ -259,7 +274,8 @@ A) Echo
 B) Whisper
 C) Music
 D) Dream
-Answer: A) Echo
+
+A) Echo
 Hint: You hear it in the mountains.
 
 RIDDLE
@@ -278,5 +294,6 @@ A) Footsteps
 B) Money
 C) Memories
 D) Dust
-Answer: A) Footsteps
+
+A) Footsteps
 Hint: You make them when you walk.
