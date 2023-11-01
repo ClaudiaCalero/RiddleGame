@@ -1,23 +1,23 @@
 RIDDLE
 I'm always in front of you but can't be seen. I follow you everywhere, even in your dreams. What am I?
-Answer:The future
+The future
 Hint: I'm ahead of you.
 
 MULTIPLE_CHOICE
 What has keys but can't open locks?
-Option: A) Piano
-Option: B) Bicycle
-Option: C) Phone
-Option: D) Door
-Answer: A) Piano
+A) Piano
+B) Bicycle
+C) Phone
+D) Door
+A) Piano
 Hint: It's a musical instrument.
 
 MULTIPLE_CHOICE
 I'm not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?
-Option: A) Rock
-Option: B) Tree
-Option: C) Fire
-Option: D) Ice
+A) Rock
+B) Tree
+C) Fire
+D) Ice
 Answer: C) Fire
 Hint: It produces heat and light.
 
