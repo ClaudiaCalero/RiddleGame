@@ -19,6 +19,7 @@ public class Riddle extends Question {
         if (hint != null) {
             System.out.println("Hint: " + hint);
         }
+        System.out.print("Your answer: ");
     }
 
     // Método para verificar si la respuesta del usuario es correcta
