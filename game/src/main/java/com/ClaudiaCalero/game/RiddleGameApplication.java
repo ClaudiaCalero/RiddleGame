@@ -20,7 +20,7 @@ public class RiddleGameApplication {
 		List<Question> questions = loadQuestionsFromURL("https://raw.githubusercontent.com/ClaudiaCalero/RiddleGame/master/RIDDLES.txt");
 
 		if (questions.isEmpty()) {
-			System.out.println("No hay preguntas disponibles. El juego no puede comenzar.");
+			System.out.println("There's no riddles available. The game cannot start.");
 			return;
 		}
 
@@ -36,38 +36,45 @@ public class RiddleGameApplication {
 			InputStream inputStream = questionsURL.openStream();
 			BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
 
-			String line = "";
+			String line;
+			String questionType = null;
+			String questionText = null;
+			String correctAnswer = null;
+			String hint = null;
+			List<String> options = new ArrayList<>();
 
 			do {
-				try {
-					line = reader.readLine();
+				line = reader.readLine();
 
-					if (line != null && !line.trim().isEmpty()) {
-						String questionType = line;
-						String questionText = reader.readLine();
-						String correctAnswer = reader.readLine();
-						String hint = (questionType.equals("RIDDLE")) ? reader.readLine() : null;
-						List<String> options = new ArrayList<>();
+				if (line != null && !line.trim().isEmpty()) {
+					if (line.equals("RIDDLE") || line.equals("MULTIPLE_CHOICE")) {
+						questionType = line;
+					} else if (questionText == null) {
+						questionText = line;
+					} else if (correctAnswer == null) {
+						correctAnswer = line;
+					} else if (questionType != null && questionType.equals("RIDDLE")) {
+						hint = line;
+					} else if (questionType != null && questionType.equals("MULTIPLE_CHOICE") && !line.isEmpty()) {
+						options.add(line);
+					}
 
-						if (questionType.equals("MULTIPLE_CHOICE")) {
-							String optionLine;
-							while ((optionLine = reader.readLine()) != null && !optionLine.isEmpty()) {
-								options.add(optionLine);
-							}
-						}
-
-						if ("RIDDLE".equals(questionType)) {
+					if (questionType != null && questionText != null && correctAnswer != null) {
+						if (questionType.equals("RIDDLE")) {
 							questions.add(new Riddle(questionText, correctAnswer, hint));
-						} else if ("MULTIPLE_CHOICE".equals(questionType)) {
+						} else if (questionType.equals("MULTIPLE_CHOICE")) {
 							questions.add(new MultipleChoiceQuestion(questionText, correctAnswer, hint, options));
 						}
+
+						// Reiniciar variables para la próxima pregunta
+						questionType = null;
+						questionText = null;
+						correctAnswer = null;
+						hint = null;
+						options.clear();
 					}
-				} catch (IOException e) {
-					e.printStackTrace();
 				}
 			} while (line != null);
-
-			reader.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
