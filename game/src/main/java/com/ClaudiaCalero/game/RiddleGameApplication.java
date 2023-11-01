@@ -60,16 +60,14 @@ public class RiddleGameApplication {
 					} else if (questionText == null) {
 						questionText = line;
 					} else if (correctAnswer == null) {
-						correctAnswer = line;
+						// La respuesta correcta es la propia línea (sin necesidad de "Answer:")
+						correctAnswer = line.trim();
 					} else if (questionType != null && questionType.equals("RIDDLE")) {
 						hint = line;
 					} else if (questionType != null && questionType.equals("MULTIPLE_CHOICE")) {
 						if (line.startsWith("A)") || line.startsWith("B)") || line.startsWith("C)") || line.startsWith("D)")) {
 							// Es una opción de respuesta
 							options.add(line);
-						} else if (line.startsWith("Answer:")) {
-							// En lugar de sobrescribir correctAnswer, deberías asignar la respuesta correcta aquí
-							correctAnswer = line.substring("Answer:".length()).trim();
 						}
 					}
 
