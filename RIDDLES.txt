@@ -1,17 +1,17 @@
 RIDDLE
 I'm always in front of you but can't be seen. I follow you everywhere, even in your dreams. What am I?
-The future
 Hint: I'm ahead of you.
+The future
 
 MULTIPLE_CHOICE
 What has keys but can't open locks?
-1. A) Piano
-2. B) Bicycle
-3. C) Phone
-4. D) Door
+A) Piano
+B) Bicycle
+C) Phone
+D) Door
+Hint: It's a musical instrument.
 
 A) Piano
-Hint: It's a musical instrument.
 
 MULTIPLE_CHOICE
 I'm not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?
@@ -19,9 +19,10 @@ A) Rock
 B) Tree
 C) Fire
 D) Ice
+Hint: It produces heat and light.
 
 C) Fire
-Hint: It produces heat and light.
+
 
 MULTIPLE_CHOICE
 What comes once in a minute, twice in a moment, but never in a thousand years?
@@ -29,9 +30,9 @@ A) Letter "M"
 B) Number 1
 C) Letter "E"
 D) Letter "O"
+Hint: It's a letter of the alphabet.
 
 A) Letter "M"
-Hint: It's a letter of the alphabet.
 
 MULTIPLE_CHOICE
 I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?
@@ -39,14 +40,16 @@ A) Echo
 B) Whisper
 C) Music
 D) Dream
+Hint: You hear it in the mountains.
 
 A) Echo
-Hint: You hear it in the mountains.
 
 RIDDLE
 I'm tall when I'm young and short when I'm old. What am I?
-A candle
 Hint: I provide light.
+
+A candle
+
 
 MULTIPLE_CHOICE
 I'm tall when I'm young, and short when I'm old. What am I?
@@ -54,14 +57,15 @@ A) Tree
 B) Person
 C) Candle
 D) Giraffe
+Hint: You light it.
 
 C) Candle
-Hint: You light it.
 
 RIDDLE
 I'm something with keys but no locks. I connect to the world but don't have a screen. What am I?
-Piano
 Hint: You play music on me.
+
+Piano
 
 MULTIPLE_CHOICE
 The more you take, the more you leave behind. What am I?
@@ -69,9 +73,9 @@ A) Footsteps
 B) Money
 C) Memories
 D) Dust
+Hint: You make them when you walk.
 
 A) Footsteps
-Hint: You make them when you walk.
 
 MULTIPLE_CHOICE
 What has keys but can't open locks and can sing but not talk?
@@ -79,19 +83,21 @@ A) Bird
 B) Piano
 C) Computer
 D) Radio
+Hint: It's a musical instrument.
 
 B) Piano
-Hint: It's a musical instrument.
 
 RIDDLE
 I'm not alive, but I can grow. I don't have lungs, but I need air. What am I?
-Answer: Fire
 Hint: I burn and provide light.
+
+Answer: Fire
 
 RIDDLE
 I'm a king, but I'm not royal; I'm a queen, but I'm not royal; I'm a pawn, but I'm not a chess piece. What am I?
-Bee
 Hint: I live in a hive.
+
+Bee
 
 MULTIPLE_CHOICE
 I'm not alive, but I can die. I'm not liquid, but I can melt. What am I?
@@ -99,9 +105,9 @@ A) Ice
 B) Rock
 C) Metal
 D) Sun
+Hint: You find it in your freezer.
 
 A) Ice
-Hint: You find it in your freezer.
 
 MULTIPLE_CHOICE
 I am taken from a mine, and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?
@@ -109,24 +115,26 @@ A) Gold
 B) Diamond
 C) Lead
 D) Pencil
+Hint: I help you write.
 
 D) Pencil
-Hint: I help you write.
 
 RIDDLE
 I'm a word of letters three, add two and fewer there will be. What am I?
-Few
 Hint: Think about the word's spelling.
+Few
 
 RIDDLE
 I'm full of holes, yet I can still hold water. What am I?
-A sponge
 Hint: I'm often used for cleaning.
+
+A sponge
 
 RIDDLE
 The more you take, the more you leave behind. What am I?
-Footsteps
 Hint: You make me when you walk.
+
+Footsteps
 
 MULTIPLE_CHOICE
 I can fly without wings, cry without eyes. Wherever I go, darkness follows me. What am I?
@@ -134,14 +142,15 @@ A) Cloud
 B) Moon
 C) Wind
 D) Bat
+Hint: I light up the night sky.
 
 B) Moon
-Hint: I light up the night sky.
 
 RIDDLE
 I have a heart that never beats, I have a home but I never sleep. I can take a man's house and build another's, and I love to play games with my many brothers. What am I?
-Ace
 Hint: I'm part of a deck of cards.
+
+Ace
 
 RIDDLE
 I am taken from a mine, and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?
